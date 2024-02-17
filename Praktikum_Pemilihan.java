@@ -19,6 +19,8 @@ public class Praktikum_Pemilihan{
 
         if (tugas < 0 || tugas > 100 || kuis < 0 || kuis > 100 || uts < 0 || uts > 100 || uas < 0 || uas > 100){
             System.out.println("Nilai Tidak Valid ");
+            System.out.println("================================");
+            System.out.println("================================");
             return;
         }
         double nilaiAkhir = 0.2 * tugas + 0.2 * kuis + 0.3 * uts + 0.3 * uas;
